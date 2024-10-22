@@ -479,7 +479,7 @@ PWM_STEERING_THROTTLE = {
 # #
 # AUGMENTATIONS = []         # changes to image only applied in training to create
 #                            # more variety in the data.
-# TRANSFORMATIONS = []       # changes applied _before_ training augmentations,
+TRANSFORMATIONS = ['CROP']       # changes applied _before_ training augmentations,
 #                            # such that augmentations are applied to the transformed image,
 # POST_TRANSFORMATIONS = []  # transformations applied _after_ training augmentations,
 #                            # such that changes are applied to the augmented image
@@ -503,7 +503,7 @@ PWM_STEERING_THROTTLE = {
 # # xxxxxxxxxxxxxxxxxxxxx # bottom
 # # xxxxxxxxxxxxxxxxxxxxx #
 # # # # # # # # # # # # # #
-# ROI_CROP_TOP = 45               # the number of rows of pixels to ignore on the top of the image
+ROI_CROP_TOP = 35               # the number of rows of pixels to ignore on the top of the image
 # ROI_CROP_BOTTOM = 0             # the number of rows of pixels to ignore on the bottom of the image
 # ROI_CROP_RIGHT = 0              # the number of rows of pixels to ignore on the right of the image
 # ROI_CROP_LEFT = 0               # the number of rows of pixels to ignore on the left of the image

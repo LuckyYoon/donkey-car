@@ -1,5 +1,6 @@
 # donkey-car
 A self driving 1/10 scale car using a CNN behavioral cloning model
+Utilized the Donkey open source platform: https://docs.donkeycar.com/ 
 
 
 ![Component Top View](https://github.com/LuckyYoon/donkey-car/blob/main/images/component_topview.jpg)

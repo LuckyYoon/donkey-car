@@ -1,7 +1,7 @@
 [
     {
         "Number": 1,
-        "Name": "pilot_24-10-21_1",
+        "Name": "linear_model",
         "Pilot": "KerasLinear",
         "Type": "linear",
         "Tubs": "/home/jonghoo/mycar/data",
@@ -129,7 +129,7 @@
             ]
         },
         "Transfer": null,
-        "Comment": "Comment",
+        "Comment": "Linear",
         "Config": {
             "AI_LAUNCH_DURATION": 0.0,
             "AI_LAUNCH_ENABLE_BUTTON": "R2",
@@ -969,7 +969,7 @@
     },
     {
         "Number": 3,
-        "Name": "pilot_24-10-21_3",
+        "Name": "augmentation_model",
         "Pilot": "KerasLinear",
         "Type": "linear",
         "Tubs": "/home/jonghoo/mycar/data",
@@ -1438,7 +1438,7 @@
     },
     {
         "Number": 4,
-        "Name": "pilot_24-10-21_4",
+        "Name": "high_augmentation_model",
         "Pilot": "KerasLinear",
         "Type": "linear",
         "Tubs": "/home/jonghoo/mycar/data",
@@ -1907,7 +1907,7 @@
     },
     {
         "Number": 5,
-        "Name": "pilot_24-10-22_5",
+        "Name": "crop_augmentation_model",
         "Pilot": "KerasLinear",
         "Type": "linear",
         "Tubs": "/home/jonghoo/mycar/data",
